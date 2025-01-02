@@ -1,0 +1,12 @@
+[
+    {
+        "name": "App 1",
+        "description": "Eine Beispiel-App",
+        "url": "https://raw.githubusercontent.com/username/repository/main/app1.lua"
+    },
+    {
+        "name": "App 2",
+        "description": "Eine zweite App",
+        "url": "https://raw.githubusercontent.com/username/repository/main/app2.lua"
+    }
+]
