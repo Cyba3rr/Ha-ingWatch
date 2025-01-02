@@ -1,3 +1,6 @@
+-- deauth.lua
+print("Starting deauth attack")
+
 wifi.setmode(wifi.STATION)
 wifi.startscan()
 
