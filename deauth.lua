@@ -1,6 +1,12 @@
 -- deauth.lua
 print("Starting deauth attack")
 
+-- Überprüfen, ob das wifi-Modul verfügbar ist
+if wifi == nil then
+    print("Error: wifi module is not available")
+    return
+end
+
 wifi.setmode(wifi.STATION)
 wifi.startscan()
 
